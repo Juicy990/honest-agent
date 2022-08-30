@@ -1,0 +1,29 @@
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+ 
+
+  .body {
+    width: 100%;
+    padding: 24px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+      
+    .content {
+      border-bottom: 1px solid #E5E5E5;
+      padding-bottom: 32px;
+     
+      &__heading {
+        padding: 0 0 24px 0;
+      }
+
+    }
+
+    
+  }
+}

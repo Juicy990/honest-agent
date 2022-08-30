@@ -1,0 +1,30 @@
+@import "../node_modules/normalize-scss/sass/normalize";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Noto Sans", Georgia, sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.warning-text {
+font-size: 12px;
+color: #ff0000;
+} 

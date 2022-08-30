@@ -1,0 +1,19 @@
+.block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+  }
+
+  .edit {
+    cursor: pointer;
+  }
+
+  
+}

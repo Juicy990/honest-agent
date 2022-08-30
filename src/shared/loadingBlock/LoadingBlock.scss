@@ -1,0 +1,11 @@
+.loading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &-text {
+        font-weight: 400;
+        font-size: 18px;
+        color: #222222;
+    }
+}

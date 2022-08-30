@@ -1,0 +1,45 @@
+.login {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  padding: 80px 50px 50px 50px;
+
+
+  &-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3b3b3b;
+    margin-bottom: 16px;
+  }
+
+  &-field {
+    &__error {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: #ff0000;
+      text-align: center;
+      margin-top: 7px;
+    }
+  }
+
+  &-error {
+    margin-top: 20px;
+  }
+
+  &-loading {
+    margin-top: 20px;
+  }
+
+  &-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+}

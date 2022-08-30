@@ -1,0 +1,49 @@
+.head {
+  width: 100%;
+  padding: 26px 28px 26px 42px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+
+  &-link {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    cursor: pointer;
+    &__arrow {
+      img {
+        
+      }
+    }
+
+    &__text {
+      text-transform: uppercase;
+      font-style: normal;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #82b284;
+      
+    }
+  }
+
+  &-icons {
+    display: flex;
+    gap: 28.5px;
+
+    &__btn {
+      border: none;
+      background-color: #ffffff;
+      cursor: pointer;
+      img {
+        
+      }
+      button {
+        border: none;
+        background: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}

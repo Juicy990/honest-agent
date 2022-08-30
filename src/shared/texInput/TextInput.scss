@@ -1,0 +1,54 @@
+.input {
+  position: relative;
+  width: 400px;
+
+input {
+  width: 100%;
+  padding: 10px 12px 10px 12px;
+  border: solid 1px #ccc;
+  outline: none;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3b3b3b;
+  background:#FFFFFF;
+  
+    &:focus {
+
+      border: solid 1px #3b3b3b;
+    }
+
+    &:hover {
+
+      border: solid 1px #808080;
+    }
+
+  &:focus ~ label,
+  &:not(:placeholder-shown) ~ label {
+    transform: translateX(10px) translateY(-5px);
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0 4px;
+    background:#FFFFFF;
+  }
+
+}
+
+label {
+  position: absolute;
+  left: 0;
+  padding: 12px 12px 10px 12px;
+  pointer-events: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #808080;
+  text-transform: uppercase;
+  transition: 0.5s;
+
+}
+
+}

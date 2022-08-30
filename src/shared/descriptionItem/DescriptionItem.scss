@@ -1,0 +1,21 @@
+.description-item {
+  display: flex;
+  color: #3b3b3b;
+  cursor: pointer; 
+
+  &__name {
+    font-style: normal;
+    width: 150px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+   
+  }
+  &__value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+  }
+}

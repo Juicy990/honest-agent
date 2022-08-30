@@ -1,0 +1,14 @@
+.block {
+  width: 100%;
+  flex-direction: column;
+
+  .images {
+    width: 552px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+  
+  }
+  
+}
